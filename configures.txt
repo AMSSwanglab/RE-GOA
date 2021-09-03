@@ -1,0 +1,4 @@
+path	./inputfiledict/
+datapath	./datamgi/
+resultpath	./outputfiledict/
+filename	exampleinput.bed
