@@ -34,4 +34,39 @@ filename	exampleinput.bed
 ```
 python peaksanalysis.py
 ```
-4. Output files in `resultpath` fold:
+4. Output files in `resultpath` fold includes four files, `exampleinput_BP.txt`,`exampleinput_CC.txt`,`exampleinput_MF.txt`,`exampleinput_genes.txt`. 
+
+`exampleinput_BP.txt`,`exampleinput_CC.txt`,`exampleinput_MF.txt` list out enriched terms in BP, CC, MF, and have 9 colunms, which are described as follows:
+```
+1.  GO id
+2.  GO term name
+3.  Num of peaks annotated with the term
+4.  Num of peaks located in defined REs
+5.  background probability of the term
+6.  raw p-value
+7.  -log p-value
+8.  B-H corrected Q-value
+9.  -log Q-value
+```
+
+`exampleinput_genes.txt` lists out enriched genes, and have 2 columns, which are described as follows:
+```
+1.  gene
+2.  Num of peaks located in a RE which regulates the gene
+```
+
+## Requirements
+Python3
+
+Python package: pickle, math, and scipy
+
+It usually takes about 1 minite for computing a `.bed` file and and write all text output files.
+
+## Codes for generate Regulatory Elements Gene Ontology Annotations
+codes for training andannotating are availible at `generate RE-GOA`, and datas are availible at https://drive.google.com/file/d/17nYBAGKc2ZZK06mY-9RQPZVSWgAoHxgu/view?usp=sharing
+
+## Citation
+
+If you use RE-GOA or RE-GOA associated resources, please cite
+
+Yurun, et al. Annotating regulatory elements by heterogeneous network embedding. 2021.
