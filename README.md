@@ -12,7 +12,7 @@ cd RE-GOA-master
 tar -zxvf REGOAd_Data.tar.gz
 ```  
 ## Run RE-GOA
-1. Inputfile: exampleinput.bed
+1. Input file: RE-GOA takes a `.bed` file input, with which each line shoud have at least 3 colums: `chrom`，`chromStart`，`chromEnd`. Few line of an example input file `exampleinput.bed` are shown as follows:
 ```
 chr1	3389104	3389281
 chr1	3991781	3992030
