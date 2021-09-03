@@ -9,7 +9,7 @@ cd RE-GOA-master
 ```  
 2. Download the necessary files for SpecVar into RE-GOA-master at: https://drive.google.com/file/d/17nYBAGKc2ZZK06mY-9RQPZVSWgAoHxgu/view?usp=sharing and run the fowllowing command:
 ```
-tar -zxvf REGOAd_Data.tar.gz
+tar -zxvf REGOA_Data.tar.gz
 ```  
 ## Run RE-GOA
 1. Input file: RE-GOA takes a `.bed` file input, with which each line shoud have at least 3 colums: `chrom`，`chromStart`，`chromEnd`. Few line of an example input file `exampleinput.bed` are shown as follows:
