@@ -64,11 +64,13 @@ Terms are sorted by `p-value`.
 Genes are sorted by `n`.
 
 ## Requirements
-Python3
+Python environment: python 3
 
 Python package: pickle, math, and scipy
 
-It usually takes about 1 minite for computing a `.bed` file and and write all text output files.
+Memory: >= 3.0 Gb
+
+It usually takes about one minite for computing a `.bed` file and and write all text output files.
 
 ## Codes for generate RE-GOA
 Codes for training andannotating are availible at `generate RE-GOA`, and associated datas are availible at https://drive.google.com/file/d/17nYBAGKc2ZZK06mY-9RQPZVSWgAoHxgu/view?usp=sharing
