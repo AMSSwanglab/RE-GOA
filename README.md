@@ -73,7 +73,7 @@ Memory: >= 3.0 Gb
 It usually takes about one minite for computing a `.bed` file and and write all text output files.
 
 ## Codes for generate RE-GOA
-Codes for training andannotating are availible at `generate RE-GOA`, and associated datas are availible at https://drive.google.com/file/d/17nYBAGKc2ZZK06mY-9RQPZVSWgAoHxgu/view?usp=sharing
+Codes for training andannotating are availible at `generate RE-GOA`, and associated datas are availible at https://drive.google.com/file/d/1jIU_DtBSQXID65Ky2HpTt5Z3wFojG4rh/view?usp=sharing
 
 ## Citation
 
