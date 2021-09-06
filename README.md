@@ -72,6 +72,15 @@ Memory: >= 3.0 Gb
 
 It usually takes about one minite for computing a `.bed` file and and write all text output files.
 
+## REs Annotations
+
+Annotations of REs can be browsed after unzip `REs Annotations.zip`. Dictionary `./hg19/` and `./mm9/` contain REs annotation of REs for human and mouse in BP, MF, and CC. each line in a `XX_REGOA.txt` file contain several columns, with first column represents the RE (`chrom`，`chromStart`and `chromEnd`), and the following columns are GO terms' id which are annotated to the RE. Few lines are showm as an example as follows:
+```
+chr15_73319767_73323849	GO:0003674	GO:0005515	GO:0005488
+chr15_90046441_90046590	GO:0042802	GO:0003824	GO:0005488	GO:0005515	GO:0003674
+chr15_98418432_98419329	GO:0005488	GO:0060090	GO:0005515	GO:0030674	GO:0003674
+```
+  
 ## Codes for generate RE-GOA
 Codes for training andannotating are availible at `generate RE-GOA`, and associated datas are availible at https://drive.google.com/file/d/1jIU_DtBSQXID65Ky2HpTt5Z3wFojG4rh/view?usp=sharing
 
